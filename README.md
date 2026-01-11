@@ -55,7 +55,8 @@ Start-GoProWebcam
 ```
 
 After enabling webcam mode, you can open the RTSP stream in VLC or any other compatible software using the following URL:
-```rtsp://<GoPro_IP_Address>:554/live
+```
+rtsp://<GoPro_IP_Address>:554/live
 ```
 
 To stop webcam mode:
