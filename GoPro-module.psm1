@@ -23,13 +23,13 @@ function Initialize-GoProAPI {
     Write-Output "GoPro API initialized with URL: $global:GoProUrl"
 }
 
-function Enable-USBMode {
+function Enable-GoProUSBMode {
     <#
     .SYNOPSIS
     Enables USB mode on the GoPro camera.
     
     .EXAMPLE
-    Enable-USBMode
+    Enable-GoProUSBMode
     
     #>
 
